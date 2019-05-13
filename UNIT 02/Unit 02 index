@@ -1,0 +1,27 @@
+!doctype html
+<HTML lang="en">
+<head>
+<meta charset="utf-8">
+<title>Unit 02</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="UNIT02/Unit02.css">
+<body>
+<header>
+
+<div class="nav">
+  <ul>
+    <li></li>
+    <li></li>
+    <li></li>
+  </ul>
+</div>
+</header>
+<main>
+
+</main>
+
+<footer>
+
+</footer>
+</body>
+</html>
