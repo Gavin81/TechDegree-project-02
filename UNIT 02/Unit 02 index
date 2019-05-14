@@ -8,14 +8,44 @@
 <body>
 <header>
 
+<h1>Gavin E</h1>
+
 <div class="nav">
   <ul>
-    <li></li>
-    <li></li>
-    <li></li>
+    <li>HOME</li>
+    <li>PORTFOLIO</li>
+    <li>CONTACT</li>
   </ul>
 </div>
+
 </header>
+<main>
+
+<img src="responsive-layout-profile.png">
+
+<div class="HOME">
+  <p>
+    Hi! I'm a Front-End Developer who loves responsive design and css. I recently finished a degree in front-end
+    web development at Treehouse and am excited to put all of my skills to use!
+  </p>
+</div>
+
+
+<div class="PORTFOLIO-AREA">
+  <h1>PORTFOLIO</h1>
+</div>
+
+
+<div class="CONTACT-AREA">
+  <h1>CONTACT</h1>
+  <p>
+    If you're interested in chatting or want more information about what I've been working on, I'd love to hear from you!
+  </p>
+  <aside>
+    Phone:
+    Email:
+  </aside>
+</div>
 <main>
 
 </main>
