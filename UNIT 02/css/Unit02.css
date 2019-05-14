@@ -1,4 +1,8 @@
 body{
+
+
+}
+
 h1{
   color: red;
 }
@@ -6,17 +10,4 @@ h1{
 .nav{
   border: 2px solid blue;
   background-color: red;
-}
-
-
-
-
-
-
-
-
-
-
-
-
 }
