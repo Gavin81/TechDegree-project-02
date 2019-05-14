@@ -8,6 +8,9 @@ h1{
 }
 
 .nav{
+  border: 2px solid blue;
+}
+.nav li{
 
 }
 
@@ -18,16 +21,31 @@ h1{
 }
 
 .HOME{
+  border: 2px solid green;
+}
+.HOME p{
 
 }
 
 
 .PORTFOLIO-AREA{
-  
+  border: 2px solid red;
 
+}
+.PORTFOLIO-AREA h1{
+
+}
+.PORTFOLIO-AREA img{
+
+}
+.PORTFOLIO-AREA h2{
+
+}
+.PORTFOLIO-AREA p{
+  
 }
 
 
 .CONTACT-AREA{
-
+  border: 2px solid black;
 }
