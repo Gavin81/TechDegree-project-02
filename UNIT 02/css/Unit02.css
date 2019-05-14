@@ -1,5 +1,5 @@
 body{
-
+background-color: ;
 
 }
 
@@ -14,7 +14,7 @@ h1{
 .profile-image{
   border: 2px solid green;
   width: 100px;
-  height: auto;
+  height: 100px;
 }
 
 .HOME{
@@ -23,6 +23,7 @@ h1{
 
 
 .PORTFOLIO-AREA{
+  
 
 }
 
