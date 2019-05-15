@@ -7,6 +7,10 @@ h1{
 
 }
 
+p{
+  font-family: 'Assistant', sans-serif;
+}
+
 .nav{
   border: 2px solid blue;
 }
@@ -42,7 +46,7 @@ h1{
 
 }
 .PORTFOLIO-AREA p{
-  
+
 }
 
 
