@@ -32,7 +32,6 @@ p{
 
 
 .PORTFOLIO-AREA{
-  border: 2px solid red;
 
 }
 .PORTFOLIO-AREA h1{
@@ -62,6 +61,7 @@ header{
 
 .HOME{
   background-color: whitesmoke;
+
 }
 .HOME p{
   text-align: center;
@@ -104,16 +104,44 @@ header{
 
 
 .PORTFOLIO-AREA{
-  border: 2px solid black;
+  margin: 0px 0px 0px 0px;
+  padding: 0px 0px 0px 0px;
+  width: 100%;
 }
 .PORTFOLIO-AREA h3{
   text-align: center;
+  margin: 0px 0px 0px 0px;
+  padding: 40px 0px 40px 0px;
 }
-.PORTFOLIO-AREA portfolio img{
+.portfolio-img{
   display: block;
   margin: auto;
-  width: 60%;
+  width: 95%;
   height: auto;
+}
+.PORTFOLIO-AREA h2{
+  text-align: center;
+}
+.PORTFOLIO-AREA p{
+  text-align: center;
+}
+
+
+.CONTACT-AREA{
+
+}
+.CONTACT-AREA h3{
+  text-align: center;
+}
+.CONTACT-AREA p{
+  text-align: center;
+}
+.info{
+
+}
+.info li{
+  list-style: none;
+  text-align: center;
 }
 
 }
