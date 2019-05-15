@@ -53,3 +53,15 @@ p{
 .CONTACT-AREA{
   border: 2px solid black;
 }
+
+@media screen and (max-width: 320px) {
+
+  h1{
+    color: black;
+  }
+
+  .nav{
+    display: block;
+  }
+
+}
