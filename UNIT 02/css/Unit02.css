@@ -57,11 +57,16 @@ p{
 @media screen and (max-width: 320px) {
 
   h1{
+    text-align: center;
     color: black;
   }
 
   .nav{
     display: block;
+  }
+  .nav li{
+    text-align: center;
+    list-style: none;
   }
 
 }
