@@ -8,7 +8,7 @@ h1{
 }
 
 p{
-  font-family: 'Assistant', sans-serif;
+
 }
 
 .nav{
@@ -53,6 +53,10 @@ p{
 
 
 @media screen and (max-width: 320px) {
+
+  p{
+    font-family: 'Assistant', sans-serif;
+  }
 
 header{
 
@@ -144,7 +148,7 @@ header{
   display: block;
   text-align: center;
   margin: 0px 0px 0px 0px;
-  padding: 0px 0px 0px 0px;
+  padding: 20px 0px 0px 0px;
 }
 .CONTACT-AREA p{
   font-size: 15px;
@@ -152,7 +156,6 @@ header{
   padding: 10px;
 }
 .contacts{
-  border: 2px solid red;
   width: 100%;
   height: auto;
   margin: 0px 0px 0px 0px;
@@ -181,9 +184,25 @@ header{
 footer{
   width: 100%;
   height: auto;
-  border: 1px solid purple;
   background-color: whitesmoke;
 }
+
+
+}
+
+@media screen and (max-width: 768px){
+
+.HOME{
+  border: 2px solid black;
+  width: 100%;
+  height: auto;
+}
+
+
+
+
+
+
 
 
 }
