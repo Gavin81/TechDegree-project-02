@@ -64,15 +64,10 @@ header{
 
   .HOME{
     background-color: whitesmoke;
-
+    width: 100%;
+    height: auto;
   }
-  .HOME p{
-    text-align: center;
-    padding: 0px 0px 30px 0px;
-  }
-
   .name{
-    margin: 0px 0px 0px 0px;
     padding-top: 10px;
     padding-bottom: 10px;
     text-align: center;
@@ -82,34 +77,35 @@ header{
   .nav{
     display: block;
   }
-  .nav ul{
-    padding-bottom: 0px;
-  }
   .nav li{
     margin: 0px 40px 5px 0px;
-    padding: 5px 10px;
+    padding: 0px 20px;
     text-align: center;
     list-style: none;
     background-color: white;
   }
-  .nav li:hover{
-
-  }
 
   .profile-image{
-    display: block;
-    margin: auto;
-    padding: 0px 0px;
-    width: 60%;
+    border: 1px solid red;
+    width: 100%;
     height: auto;
     background-color: red;
+    padding: 0px 0px;
   }
 
-  p {
+  .HOME p{
+    text-align: center;
+    font-size: 15px;
+    padding: 0px 0px 30px 0px;
+  }
+
+
+/*  p {
     font-size: 15px;
     margin: 19px 0px 0px 0px;
     padding: 0px 0px 0px 0px;
   }
+*/
 
 
 .PORTFOLIO-AREA{
@@ -193,15 +189,15 @@ footer{
 @media screen and (max-width: 768px){
 
 .HOME{
-  border: 2px solid black;
   width: 100%;
   height: auto;
+  background-color: whitesmoke;
+
 }
 .HOME h1{
   text-align: center;
 }
 .nav{
-  border: 2px solid black;
   list-style: none;
   text-align: center;
   margin: 0px;
@@ -213,11 +209,36 @@ footer{
   padding: 20px;
   margin:;
 }
+.HOME img{
+  float: right;
+  width: 38%;
+  height: auto;
+}
+.HOME p{
+  width: 60%;
+  height: auto;
+  padding: 5px;
+}
 
 
-
-
-
-
-
+.PORTFOLIO-AREA{
+  border: 1px solid red;
+  width: 100%;
+  height: auto;
+}
+.PORTFOLIO-AREA h5{
+  font-size: 12px;
+  text-align: center;
+}
+.portfolio-img{
+  display: inline-block;
+  width: 45%;
+}
+.PORTFOLIO-AREA h3{
+  text-align: left;
+  font-size: 20px;
+}
+.PORTFOLIO-AREA p{
+  font-size: 15px;
+  width: 45%;
 }
