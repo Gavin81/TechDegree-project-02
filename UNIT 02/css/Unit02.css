@@ -58,14 +58,14 @@ header{
 
 }
 
-.HOME{
-  background-color: whitesmoke;
+  .HOME{
+    background-color: whitesmoke;
 
-}
-.HOME p{
-  text-align: center;
-  padding: 0px 0px 30px 0px;
-}
+  }
+  .HOME p{
+    text-align: center;
+    padding: 0px 0px 30px 0px;
+  }
 
   .name{
     margin: 0px 0px 0px 0px;
