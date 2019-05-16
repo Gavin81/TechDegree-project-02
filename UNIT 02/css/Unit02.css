@@ -197,7 +197,22 @@ footer{
   width: 100%;
   height: auto;
 }
-
+.HOME h1{
+  text-align: center;
+}
+.nav{
+  border: 2px solid black;
+  list-style: none;
+  text-align: center;
+  margin: 0px;
+  padding: 0px;
+}
+.nav li{
+  display: inline-block;
+  font-size: 12px;
+  padding: 20px;
+  margin:;
+}
 
 
 
