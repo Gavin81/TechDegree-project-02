@@ -101,13 +101,20 @@ header{
     background-color: red;
   }
 
+  p {
+    font-size: 15px;
+    margin: 19px 0px 0px 0px;
+    padding: 0px 0px 0px 0px;
+  }
+
 
 .PORTFOLIO-AREA{
   margin: 0px 0px 0px 0px;
   padding: 0px 0px 0px 0px;
   width: 100%;
 }
-.PORTFOLIO-AREA h3{
+.PORTFOLIO-AREA h5{
+  display: block;
   text-align: center;
   margin: 0px 0px 0px 0px;
   padding: 40px 0px 40px 0px;
@@ -118,11 +125,12 @@ header{
   width: 95%;
   height: auto;
 }
-.PORTFOLIO-AREA h2{
+.PORTFOLIO-AREA h3{
   text-align: center;
 }
 .PORTFOLIO-AREA p{
   text-align: center;
+  margin-bottom: 30px;
 }
 
 
@@ -131,12 +139,15 @@ header{
   padding: 30px 0px 0px 0px;
   background-color: whitesmoke;
 }
-.CONTACT-AREA h4{
+.CONTACT-AREA h5{
+  margin: auto;
+  display: block;
   text-align: center;
   margin: 20px 0px 0px 0px;
-  padding: 0px 0px 20px 0px;
+  padding: 0px 0px 0px 0px;
 }
 .CONTACT-AREA p{
+  font-size: 15px;
   text-align: center;
   padding: 10px;
 }
@@ -154,6 +165,9 @@ header{
 
 
 footer{
+  width: 100%;
+  height: auto;
+  border: 1px solid black;
   background-color: whitesmoke;
 }
 }
