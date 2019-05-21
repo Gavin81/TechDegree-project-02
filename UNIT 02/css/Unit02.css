@@ -183,6 +183,8 @@ footer{
 
 header{
   background-color: whitesmoke;
+  width: 100%;
+  height: auto;
 }
 
 .HOME{
