@@ -167,6 +167,9 @@ header{
   display: inline-block;
 }
 
+.contacts-2{
+  display: none;
+}
 
 footer{
   width: 100%;
@@ -290,6 +293,7 @@ footer {
   **/
 }
 .contacts li{
+  display: none;
   /**border: 1px solid red;
   list-style: none;
   font-size: 15px;
@@ -299,16 +303,29 @@ footer {
 }
 
 .contacts-2{
-  border: 1px solid red;
   display: flex;
-  flex-direction: row;
-  flex: 1;
-  justify-content: space-around;
-
+  padding-bottom: 50px;
+}
+.contacts-2 h3{
+  font-size: 16px;
+}
+.contacts-2 ul{
+  margin-left: 530px;
+  display: flex;
+  justify-content:space-around;
+  padding: 0px 0px 0px 0px;
 }
 .contacts-2 li{
   list-style: none;
+  font-size: 15px;
+  padding: 5px;
+  color: black;
 }
+.contacts-2 a{
+  text-decoration: none;
+}
+
+
 
 
 }
