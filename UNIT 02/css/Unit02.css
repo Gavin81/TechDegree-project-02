@@ -340,6 +340,35 @@ footer {
 
   }
   header{
-    border: 3px solid green;
+    border: 3px solid blue;
+  }
+
+  .HOME{
+    width: 100%;
+    height: auto;
+  }
+  .HOME h1{
+
+  }
+  .nav{
+
+  }
+  .nav li{
+
+  }
+  .nav a{
+
+  }
+
+  .profile-image{
+
+  }
+
+  .HOME p{
+
+  }
+
+  .PORTFOLIO-AREA{
+    
   }
 }
