@@ -328,33 +328,33 @@ footer {
 
 }
 
-
-
-
 }
 
 
 @media screen and (min-width: 1024px){
   body{
     border: 3px solid green;
-
   }
   header{
-    border: 3px solid blue;
+    border: 1px solid blue;
+    background-color: yellow;
   }
 
   .HOME{
     width: 100%;
     height: auto;
+    background-color: yellow;
   }
   .HOME h1{
-
+    float: left;
+    font-size: 22px;
+    margin: 0px 0px 0px 10px;
   }
   .nav{
-
+    border: 1px solid black;
   }
   .nav li{
-
+    
   }
   .nav a{
 
@@ -369,6 +369,15 @@ footer {
   }
 
   .PORTFOLIO-AREA{
-    
+
   }
+
+  .PORTFOLIO-AREA h5{
+
+  }
+
+  .item{
+
+  }
+
 }
