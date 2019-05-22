@@ -212,7 +212,9 @@ header{
   font-family: bebas neue, sans-serif;
   font-size: 12px;
   padding: 20px;
-  margin:;
+}
+.nav a{
+  text-decoration: none;
 }
 .HOME img{
   float: right;
@@ -264,6 +266,7 @@ header{
 }
 
 footer {
+  border: 1px solid red;
   background-color: whitesmoke;
 }
 .CONTACT-AREA h5{
