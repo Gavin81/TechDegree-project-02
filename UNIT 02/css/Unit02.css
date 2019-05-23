@@ -341,20 +341,20 @@ footer {
   }
 
   .HOME{
-
+    display: flex;
+    flex-direction: row;
   }
   .HOME h1{
+    margin-right: auto;
+  }
+  .nav {
+    display: flex;
+    margin-top: 0;
     align-self: center;
   }
-  .nav{
-
-  }
-  .HOME, .nav{
-    display: flex;
-    flex-direction: column;
-  }
   .nav li{
-
+    margin-left: .65em;
+    margin-right: .65em;
   }
   .nav a{
 
