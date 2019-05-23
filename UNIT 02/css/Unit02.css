@@ -11,18 +11,41 @@ p{
 }
 
 .nav{
-
+  margin-top: 1.5em;
 }
 .nav li{
 
 }
-
-.profile-image{
-
+.nav a {
+  display: block;
+  color: #797e83;
+  font-size: 1.125em;
+  font-weight: 300;
+  text-align: center;
+  padding: .4em;
+  border-bottom: 1px solid #ebecec;
+}
+.nav a:hover{
+  color: #0b0b0b;
+  border-bottom-color: #52bab3;
 }
 
-.HOME{
 
+.profile-image{
+  width: 110px;
+}
+
+.HOME,
+.nav {
+  display: flex;
+  flex-direction: column;
+}
+.HOME{
+  padding-top: 2em;
+}
+.HOME h1 {
+  width: 110px;
+  align-self: center;
 }
 .HOME p{
 
@@ -58,7 +81,7 @@ p{
   }
 
 header{
-  border: 1px solid red;
+
 }
 
   .HOME{
@@ -189,7 +212,6 @@ footer{
 
 
 .HOME{
-  border: 2px solid blue;
   width: 100%;
   height: 340px;
 }
@@ -323,30 +345,22 @@ footer {
 .contacts-2 a{
   text-decoration: none;
   color: black;
-
 }
 
 }
 
 
 @media screen and (min-width: 1024px){
-  body{
-    border: 3px solid green;
-  }
-  header{
-    border: 1px solid blue;
-    background-color: whitesmoke;
-  }
 
   .HOME{
-    display: flex;
+    border: 2px solid blue;
+    background-color: whitesmoke;
     flex-direction: row;
   }
   .HOME h1{
     margin-right: auto;
   }
   .nav {
-    display: flex;
     margin-top: 0;
     align-self: center;
   }
@@ -359,11 +373,11 @@ footer {
   }
 
   .profile-image{
-
+    display: none;
   }
 
   .HOME p{
-
+    display: none;
   }
 
   .PORTFOLIO-AREA{
