@@ -337,24 +337,24 @@ footer {
   }
   header{
     border: 1px solid blue;
-    background-color: yellow;
+    background-color: whitesmoke;
   }
 
   .HOME{
-    width: 100%;
-    height: auto;
-    background-color: yellow;
+
   }
   .HOME h1{
-    float: left;
-    font-size: 22px;
-    margin: 0px 0px 0px 10px;
+    align-self: center;
   }
   .nav{
-    border: 1px solid black;
+
+  }
+  .HOME, .nav{
+    display: flex;
+    flex-direction: column;
   }
   .nav li{
-    
+
   }
   .nav a{
 
