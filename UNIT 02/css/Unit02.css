@@ -417,9 +417,7 @@ footer {
 
   .item{
     flex-direction: column;
-    flex: 25%;
-    width: ;
-    margin: ;
+    flex: 33%;
     height: 300px;
   }
 
