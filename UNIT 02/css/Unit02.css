@@ -399,18 +399,16 @@ footer {
   }
 
   .PORTFOLIO-AREA{
-    border: 2px solid red;
     width: 100%;
     height: auto;
     display: flex;
     flex-wrap: wrap;
-    padding-top: 100px;
   }
 
   .PORTFOLIO-AREA h5{
-    border: 1px solid red;
     font-size: 15px;
     text-align: center;
+    flex-basis: 100%;
     color: black;
     margin: 0px 0px 0px 0px;
     padding: 0px 0px;
@@ -418,7 +416,6 @@ footer {
   }
 
   .item{
-    border: 1px solid brown;
     flex-direction: column;
     flex: 25%;
     width: ;
