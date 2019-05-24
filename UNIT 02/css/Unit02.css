@@ -399,6 +399,7 @@ footer {
   }
 
   .PORTFOLIO-AREA{
+    border: 1px solid blue;
     width: 100%;
     height: auto;
     display: flex;
@@ -419,6 +420,16 @@ footer {
     flex-direction: column;
     flex: 33%;
     height: 300px;
+  }
+
+  .CONTACT-AREA{
+    border: 1px solid black;
+  }
+
+  .contacts-2{
+    border: 1px solid red;
+    margin: 0px 0px 0px 0px;
+    padding: 0px 0px 0px 0px;
   }
 
 }
