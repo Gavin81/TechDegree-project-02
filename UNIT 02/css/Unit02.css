@@ -399,7 +399,6 @@ footer {
   }
 
   .PORTFOLIO-AREA{
-    border: 1px solid blue;
     width: 100%;
     height: auto;
     display: flex;
@@ -423,13 +422,31 @@ footer {
   }
 
   .CONTACT-AREA{
-    border: 1px solid black;
+    width: 100%;
+    height: auto;
+  }
+  .CONTACT-AREA h5{
+    font-size: 15px;
+    color: black;
+  }
+  .CONTACT-AREA p{
+    font-size: 20px;
+    color: black;
   }
 
   .contacts-2{
-    border: 1px solid red;
     margin: 0px 0px 0px 0px;
     padding: 0px 0px 0px 0px;
+  }
+
+  .contacts-2 h3{
+    font-size: 15px;
+  }
+
+  .contacts-2 ul{
+  }
+  .contacts-2 li{
+    padding-right: 10px;
   }
 
 }
