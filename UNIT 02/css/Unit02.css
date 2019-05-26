@@ -1,12 +1,9 @@
-body{
 
 
 .nav{
   margin-top: 1.5em;
 }
-.nav li{
 
-}
 .nav a {
   display: block;
   color: #797e83;
@@ -37,31 +34,6 @@ body{
 .HOME h1 {
   width: 110px;
   align-self: center;
-}
-.HOME p{
-
-}
-
-
-.PORTFOLIO-AREA{
-
-}
-.PORTFOLIO-AREA h1{
-
-}
-.PORTFOLIO-AREA img{
-
-}
-.PORTFOLIO-AREA h2{
-
-}
-.PORTFOLIO-AREA p{
-
-}
-
-
-.CONTACT-AREA{
-
 }
 
 
@@ -173,6 +145,10 @@ header{
   display: inline-block;
   /*padding: 38px;*/
   padding: 10px 38px;
+}
+.contacts a{
+  color: black;
+  text-decoration: none;
 }
 .info{
   margin-top: 0px;
@@ -331,13 +307,14 @@ footer {
 
 .contacts-2{
   display: flex;
-  padding-bottom: 50px;
+  padding-bottom: 40px;
 }
 .contacts-2 h3{
   font-size: 16px;
+  padding: 0px 0px 0px 10px;
 }
 .contacts-2 ul{
-  margin-left: 530px;
+  margin-left: 480px;
   display: flex;
   justify-content:space-around;
   padding: 0px 0px 0px 0px;
