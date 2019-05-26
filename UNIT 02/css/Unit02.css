@@ -167,7 +167,6 @@ header{
 }
 
 footer{
-  border: 2px solid red;
   width: 100%;
   height: auto;
   background-color: whitesmoke;
@@ -267,7 +266,6 @@ footer{
 
 footer {
   background-color: whitesmoke;
-  border: 2px solid blue;
 }
 .CONTACT-AREA h5{
   font-family: "bebas neue", sans-serif;
@@ -392,7 +390,6 @@ footer {
   }
 
   footer{
-    border: 2px solid black;
   }
 
   .CONTACT-AREA{
