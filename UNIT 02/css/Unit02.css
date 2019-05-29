@@ -168,7 +168,6 @@ header{
 }
 
 footer{
-  border: 1px solid red;
   width: 100%;
   height: auto;
   background-color: whitesmoke;
@@ -215,8 +214,8 @@ footer{
 }
 .profile-image{
   float: right;
-  width: 38.5%;
-  height: 124px;
+  width: 35%;
+  height: 130px;
   margin-bottom: 20px;
 
 }
@@ -227,13 +226,14 @@ footer{
   text-align: left;
   background-color: whitesmoke;
   margin: 0px 0px;
-  padding: 10px 17px 10px 10px;
+  padding: 10px 58px 18px 10px;
 }
 
 
 .PORTFOLIO-AREA{
   width: 100%;
   height: auto;
+  padding-bottom: 28px;
 }
 .PORTFOLIO-AREA:after{
   content: "";
