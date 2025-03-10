@@ -43,17 +43,22 @@
     font-family: 'Assistant', sans-serif;
   }
 
-header{
+  header{
 
-}
+  }
 
   .HOME{
     background-color: whitesmoke;
     width: 100%;
     height: auto;
   }
+
+
+  /* Profile Name styles */
   .name{
-    font-family: philosopher, sans-serif;
+    border: 1px solid red;
+    /* font-family: philosopher, sans-serif; */
+    font-family: 'Source Sans 3';
     font-size: 28px;
     padding-top: 10px;
     padding-bottom: 10px;
@@ -61,14 +66,19 @@ header{
     color: black;
   }
 
+
+  /* Nav Styles */
   .nav{
+    border: 1px solid blue;
     display: block;
   }
   .nav li{
+    border: 1px solid red;
     margin: 0px 40px 5px 0px;
     padding: 0px 20px;
     text-align: center;
     list-style: none;
+    width: ;
   }
   .nav a{
     text-decoration: none;
