@@ -3,9 +3,9 @@
 }
 
 .nav {
-  /* border: 2px solid blue; */
+  border: 2px solid blue;
   padding: 0;
-  margin: 20px 0;
+  margin-top: 0;
 }
 .nav li {
   /* border: 2px solid turquoise; */
@@ -39,13 +39,12 @@
   flex-direction: column;
 }
 .HOME {
-  /* border: 1px solid red; */
+  border: 1px solid red;
   background-color: rgb(241, 241, 241);
   padding: 0;
-  /* padding-top: 2rem; */
 }
 .HOME h1 {
-  /* border: 1px solid black; */
+  border: 1px solid black;
   font-family: 'Assistant', sans-serif;
   width: 100%;
   text-align: center;
@@ -56,9 +55,9 @@
 
 
 .profile-image-area {
-  /* border: 1px solid red; */
-  background-color: rgb(241, 241, 241);
-  padding-bottom: 20px;
+  border: 1px solid red;
+  /* padding-top: 20px;
+  padding-bottom: 20px; */
 }
 .profile-image {
   /* border: 1px solid blue; */
