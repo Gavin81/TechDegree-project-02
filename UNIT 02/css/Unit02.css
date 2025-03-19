@@ -472,11 +472,11 @@ footer {
     border: 1px solid blue;
     width: 200px;
   }
-  .HOME .nav {
+  .nav-container {
     border: 1px solid green;
     width: 400px;
     display: flex;
-    flex-direction: row-reverse;
+    flex-direction: flex end;
   }
   .para {
     font-size: 20px;
