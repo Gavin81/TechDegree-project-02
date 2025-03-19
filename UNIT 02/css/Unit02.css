@@ -466,17 +466,22 @@ footer {
 
   /* HEADER STYLES */
   .HOME {
-    border: 1px solid red;
-  }
-  .HOME .name {
-    border: 1px solid blue;
-    width: 200px;
+    /* border: 1px solid red; */
   }
   .nav-container {
     border: 1px solid green;
-    width: 400px;
+    background: rgb(241, 241, 241);
+    width: auto;
     display: flex;
-    flex-direction: flex end;
+    justify-content: flex-end;
+  }
+  .nav-container .name {
+    /* border: 1px solid blue; */
+    margin-right: auto;
+    width: 140px;
+  }
+  .nav-container ul {
+    background: rgb(241, 241, 241);
   }
   .para {
     font-size: 20px;
