@@ -273,10 +273,9 @@
 
 
 .HOME {
-  border: 1px solid red;
+  /* border: 1px solid red; */
   justify-content: flex-end;
   width: 100%;
-  /* height: 200px; */
   padding-bottom: 0px;
 }
 .HOME h1 {
@@ -296,12 +295,12 @@
   flex-direction: row;
   justify-content: space-evenly;
   list-style: none;
-  /* text-align: center; */
   margin: 0;
   padding: 0;
 }
 .nav li {
   display: inline-block;
+  background-color: rgb(241, 241, 241);
   margin: auto;
   font-size: 12px;
   padding: 20px;
@@ -313,122 +312,121 @@
 }
 
 
-
+.img-para {
+  margin: 0;
+  padding: 0 0 40px 0;
+}
 .profile-image {
-  border: 1px solid blue;
   float: right;
   width: 35%;
-  height: 130px;
-  margin: 0 10px 0 0;
-
+  height: 140px;
+  margin: 0 20px 0 0;
 }
 .para {
-  border: 1px solid green;
+  font-family: "Assistant", sans-serif;
   font-size: 20px;
   width: 58%;
-  /* height: auto; */
   text-align: left;
-  /* background-color: whitesmoke; */
-  margin: 0px 0px;
-  padding: 0;
-  /* padding: 10px 58px 18px 10px; */
+  margin: 0;
+  padding: 0 0 0 20px;
 }
 
 
-.PORTFOLIO-AREA{
+.PORTFOLIO-AREA {
+  /* border: 1px solid red; */
   width: 100%;
   height: auto;
-  padding-bottom: 28px;
+  /* padding-bottom: 28px; */
 }
-.PORTFOLIO-AREA:after{
+.PORTFOLIO-AREA:after {
   content: "";
   display: table;
   clear: both;
 }
 .item {
+  /* border: 1px solid green; */
   float: left;
   width: 49.5%;
   margin: 0px 0px 0px 0px;
   padding: 0px 0px 50px 0px;
-  height: 300px;
+  height: 360px;
 }
-.PORTFOLIO-AREA h5{
+.PORTFOLIO-AREA h5 {
+  /* border: 1px solid blue; */
   font-family: "bebas neue", sans-serif;
-  font-size: 12px;
+  font-size: 13px;
   text-align: center;
 }
-.portfolio-img{
+.portfolio-img {
   display: block;
   width: 98%;
 }
-.PORTFOLIO-AREA h3{
+.PORTFOLIO-AREA h3 {
   text-align: center;
   font-size: 20px;
 }
-.PORTFOLIO-AREA p{
-  font-size: 15px;
+.PORTFOLIO-AREA p {
+  font-size: 13px;
   text-align: center;
 }
 
+
+
 footer {
+  /* border: 1px solid red; */
   background-color: whitesmoke;
 }
-.CONTACT-AREA h5{
+.CONTACT-AREA h5 {
+  /* border: 2px solid blue; */
   font-family: "bebas neue", sans-serif;
   font-size: 12px;
-  margin: 0px 0px 0px 0px;
-  padding: 20px 0px 0px 0px;
+  margin: 0;
+  padding: 40px 0 40px 0;
 }
-.CONTACT-AREA P{
+.CONTACT-AREA P {
+  /* border: 1px solid green; */
   margin: auto;
+  font-family: "Assistant", sans-serif;
   font-size: 17px;
-  padding: 20px 0px 20px 0px;
+  padding: 0px 0 0px 0;
   width: 60%;
 }
-.info li{
+.info li {
+  font-family: "Assistant", sans-serif;
   font-size: 19px;
   margin: 10px 0px 55px 0px;
   padding: 0px 0px 0px 0px;
 }
 
-.contacts{
-  display: none;
-  /**width: 100%;
-  height: auto;
-  margin: 0px 0px 0px 0px;
-  padding: 0px 0px 50px 0px;
-  **/
-}
-.contacts li{
-  display: none;
-  /**border: 1px solid red;
-  list-style: none;
-  font-size: 15px;
-  display: inline-block;
-  padding: 10px 148px;
-  **/
-}
 
-.contacts-2{
+.bottom-ul {
+  display: none;
+}
+.contacts-2 {
+  /* border: 2px solid blue; */
   display: flex;
   padding-bottom: 40px;
+  padding-left: 10px;
 }
-.contacts-2 h3{
+.contacts-2 h3 {
+  font-family: "bebas-neue", sans-serif;
   font-size: 16px;
-  padding: 0px 0px 0px 10px;
+  padding: 0 0 0 10px;
 }
-.contacts-2 ul{
-  margin-left: 480px;
+.contacts-2 ul {
+  /* border: 1px solid red; */
+  margin-left: 420px;
   display: flex;
-  justify-content:space-around;
-  padding: 0px 0px 0px 0px;
+  justify-content: space-around;
+  padding: 0;
 }
-.contacts-2 li{
+.contacts-2 li {
   list-style: none;
   font-size: 15px;
   padding: 5px;
 }
-.contacts-2 a{
+.contacts-2 a {
+  font-family: "bebas-neue", sans-serif;
   text-decoration: none;
   color: black;
 }
@@ -460,19 +458,35 @@ footer {
   .nav a{
 
   }
-
   .profile-image{
     width: 38%;
     height: 170px;
   } */
 
-  .para{
+
+  /* HEADER STYLES */
+  .HOME {
+    border: 1px solid red;
+  }
+  .HOME .name {
+    border: 1px solid blue;
+    width: 200px;
+  }
+  .HOME .nav {
+    border: 1px solid green;
+    width: 400px;
+    display: flex;
+    flex-direction: row-reverse;
+  }
+  .para {
     font-size: 20px;
     margin: 0px 0px 0px 0px;
     padding: 0px 50px 92px 0px;
   }
 
-  .PORTFOLIO-AREA{
+
+  /* PORTFOLIO STYLES */
+  .PORTFOLIO-AREA {
     width: 100%;
     height: auto;
     display: flex;
