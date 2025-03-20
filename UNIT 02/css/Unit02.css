@@ -466,10 +466,12 @@ footer {
 
   /* HEADER STYLES */
   .HOME {
-    /* border: 1px solid red; */
+    /* border: 1px solid black; */
+    margin: 0;
+    padding: 0;
   }
   .nav-container {
-    border: 1px solid green;
+    /* border: 1px solid green; */
     background: rgb(241, 241, 241);
     width: auto;
     display: flex;
@@ -477,77 +479,114 @@ footer {
   }
   .nav-container .name {
     /* border: 1px solid blue; */
+    font-size: 25px;
     margin-right: auto;
     width: 140px;
   }
   .nav-container ul {
     background: rgb(241, 241, 241);
   }
+  .profile-image {
+    /* border: 1px solid blue; */
+    width: 330px;
+    height: 190px;
+    margin: 0 30px 0 0;
+    padding: 0;
+  }
   .para {
+    /* border: 1px solid red; */
+    font-family: "Assistant", sans-serif;
     font-size: 20px;
-    margin: 0px 0px 0px 0px;
-    padding: 0px 50px 92px 0px;
+    margin: 0;
+    padding: 0 0 0 25px;
   }
 
 
   /* PORTFOLIO STYLES */
   .PORTFOLIO-AREA {
+    /* border: 1px solid black; */
     width: 100%;
     height: auto;
     display: flex;
     flex-wrap: wrap;
   }
 
-  .PORTFOLIO-AREA h5{
+  .PORTFOLIO-AREA h5 {
+    /* border: 1px solid red; */
     font-size: 15px;
     text-align: center;
     flex-basis: 100%;
     color: black;
-    margin: 0px 0px 0px 0px;
-    padding: 10px 0px 0px 0px;
-    height: 50px;
+    margin: 0;
+    padding: 45px 0px 60px 0px;
+    height: 0;
   }
 
-  .item{
+  .item {
+    /* border: 1px solid blue; */
     flex-direction: column;
     flex: 33%;
-    height: 300px;
+    height: 330px;
+  }
+  .item h3 {
+    /* border: 2px solid black; */
+    font-size: 17px;
+    margin: 0;
+    padding: 18px 0 15px 0;
+  }
+  .item p {
+    /* border: 1px solid red; */
+    margin: 0;
+    padding: 0;
   }
 
-  footer{
-  }
 
-  .CONTACT-AREA{
+  footer {
+    /* border: 1px solid red; */
+  }
+  .CONTACT-AREA {
     width: 100%;
     height: auto;
   }
-  .CONTACT-AREA h5{
+  .CONTACT-AREA h5 {
     font-size: 15px;
     color: black;
   }
-  .CONTACT-AREA p{
+  .CONTACT-AREA p {
     font-size: 20px;
     color: black;
   }
-
-  .contacts-2{
-    margin: 0px 0px 0px 0px;
-    padding: 0px 0px 0px 0px;
+  .info {
+    /* border: 1px solid blue; */
+    margin-bottom: 40px;
+  }
+  .info li {
+    /* border: 1px solid black; */
+    margin: 10px 0;
+    padding: 0;
   }
 
-  .contacts-2 h3{
+  .contacts-2 {
+    /* border: 1px solid blue; */
+    margin: 0;
+    padding: 0;
+  }
+  .contacts-2 h3 {
+    /* border: 1px solid black; */
+    margin: 0;
+    padding: 20px 0 0 0;
     font-size: 15px;
+    padding-left: 25px;
   }
-
-  .contacts-2 ul{
+  .contacts-2 ul {
+    /* border: 1px solid green; */
     margin-right: 0px;
     margin-left: auto;
   }
-  .contacts-2 li{
-    padding-right: 10px;
-
+  .contacts-2 li {
+    padding-right: 30px;
   }
-  .contacts-2 a{
+  .contacts-2 a {
     font-size: 15px;
   }
 
