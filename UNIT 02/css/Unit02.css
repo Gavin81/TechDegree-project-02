@@ -2,6 +2,10 @@
   box-sizing: border-box;
 }
 
+
+.nav-container {
+  background-color: rgb(19, 194, 194);
+}
 .nav {
   padding: 0;
   margin-top: 0;
@@ -66,15 +70,21 @@
 .para {
   /* border: 1px solid red; */
   background-color: rgb(241, 241, 241);
+  font-family: "Assistant", sans-serif;
   margin: 0;
-  padding: 0 0 25px 0;
+  padding: 20px 0 25px 0;
   text-align: center;
+}
+.para span {
+  font-weight: 900;
+  font-style: italic;
 }
 
 
 
 .PORTFOLIO-AREA h5 {
-  font-family: 'Source sans', sans-serif;
+  font-family: 'Great Vibes', sans-serif;
+  /* font-family: 'Source sans', sans-serif; */
   font-size: 14px;
 }
 .item h3 {
@@ -91,70 +101,18 @@
 }
 
 
-
-  /* .HOME {
-    background-color: whitesmoke;
-    width: 100%;
-    height: auto;
-  } */
-
-
-  /* Profile Name styles */
-  /* .name {
-    font-family: 'Source Sans 3';
-    font-size: 28px;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    text-align: center;
-    color: black;
-  } */
-
-
-  /* Nav Styles */
-  /* .nav {
-    display: block;
-  } */
-
-  /* .nav li {
-    margin: 0px 40px 5px 0px;
-    padding: 0px 20px;
-    text-align: center;
-    list-style: none;
-  } */
-
-  /* .nav a{
-    text-decoration: none;
-    color: black;
-  } */
-
-  /* .profile-image{
-    width: 100%;
-    height: auto;
-    background-color: red;
-    padding: 0px 0px;
-  } */
-
-  /* .HOME p {
-    border: 5px solid turquoise;
-    text-align: center;
-    font-size: 15px;
-    padding: 0px 0px 30px 0px;
-  } */
-
-
-
   .PORTFOLIO-AREA {
     margin: 0px 0px 0px 0px;
     padding: 0px 0px 0px 0px;
     width: 100%;
   }
-  .PORTFOLIO-AREA h5{
+  .PORTFOLIO-AREA h5 {
     display: block;
     text-align: center;
     margin: 0px 0px 0px 0px;
     padding: 40px 0px 40px 0px;
   }
-  .portfolio-img{
+  .portfolio-img {
     display: block;
     margin: auto;
     width: 95%;
@@ -177,7 +135,8 @@
   }
   .CONTACT-AREA h5 {
     /* border: 1px solid blue; */
-    font-family: 'Source Sans', sans-serif;
+    /* font-family: 'Source Sans', sans-serif; */
+    font-family: 'Great Vibes', sans-serif;
     font-size: 14px;
     margin: auto;
     display: block;
@@ -257,6 +216,9 @@
     height: auto;
     background-color: whitesmoke;
   }
+  .contacts-2 {
+    display: none;
+  }
 
 
 
@@ -282,7 +244,7 @@
 
 .nav {
   /* border: 1px solid blue; */
-  background-color: #797e83;
+  /* background-color: #797e83; */
   flex-direction: row;
   justify-content: space-evenly;
   list-style: none;
@@ -291,7 +253,8 @@
 }
 .nav li {
   display: inline-block;
-  background-color: rgb(241, 241, 241);
+  background-color: rgb(19, 194, 194);
+  /* background-color: rgb(241, 241, 241); */
   margin: auto;
   font-size: 12px;
   padding: 20px;
@@ -344,7 +307,7 @@
 }
 .PORTFOLIO-AREA h5 {
   /* border: 1px solid blue; */
-  font-family: "bebas neue", sans-serif;
+  /* font-family: "bebas neue", sans-serif; */
   font-size: 13px;
   text-align: center;
 }
@@ -369,7 +332,7 @@ footer {
 }
 .CONTACT-AREA h5 {
   /* border: 2px solid blue; */
-  font-family: "bebas neue", sans-serif;
+  /* font-family: "bebas neue", sans-serif; */
   font-size: 12px;
   margin: 0;
   padding: 40px 0 40px 0;
@@ -427,35 +390,7 @@ footer {
 
 @media screen and (min-width: 1024px){
 
-  /* .HOME{
-    background-color: whitesmoke;
-    flex-direction: row;
-    margin: 0px 0px 0px 0px;
-    padding: 0px 0px 0px 0px;
-  }
-  .HOME h1{
-    margin-right: auto;
-  }
-  .nav {
-    margin-top: 0;
-    align-self: center;
-    margin: 0px 0px 0px 0px;
-    padding: 0px 0px 0px 0px;
-  }
-  .nav li{
-    margin-left: .65em;
-    margin-right: .65em;
-  }
-  .nav a{
-
-  }
-  .profile-image{
-    width: 38%;
-    height: 170px;
-  } */
-
-
-  /* HEADER STYLES */
+   /* HEADER STYLES */
   .HOME {
     /* border: 1px solid black; */
     margin: 0;
@@ -463,7 +398,8 @@ footer {
   }
   .nav-container {
     /* border: 1px solid green; */
-    background: rgb(241, 241, 241);
+    background-color: rgb(19, 194, 194);
+    /* background: rgb(241, 241, 241); */
     width: auto;
     display: flex;
     justify-content: flex-end;
@@ -475,7 +411,8 @@ footer {
     width: 140px;
   }
   .nav-container ul {
-    background: rgb(241, 241, 241);
+    background-color: rgb(19, 194, 194);
+    /* background: rgb(241, 241, 241); */
   }
   .profile-image {
     /* border: 1px solid blue; */
@@ -533,7 +470,7 @@ footer {
 
 
   footer {
-    /* border: 1px solid red; */
+    
   }
   .CONTACT-AREA {
     width: 100%;
