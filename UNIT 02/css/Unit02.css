@@ -11,8 +11,11 @@
   margin-top: 0;
   margin-bottom: 0;
 }
+.nav ul {
+  margin: 0;
+  padding: 0; 
+}
 .nav li {
-  /* border: 2px solid turquoise; */
   background-color: white;
   display: block;
   margin: 5px auto;
@@ -218,13 +221,11 @@ footer {
 
 
 .HOME {
-  /* border: 1px solid red; */
   justify-content: flex-end;
   width: 100%;
   padding-bottom: 0px;
 }
 .HOME h1 {
-  /* border: 1px solid black; */
   text-align: center;
   color: black;
   font-family: "bebas neue", sans-serif;
@@ -235,11 +236,14 @@ footer {
 
 
 .nav {
-  /* border: 1px solid blue; */
   /* background-color: #797e83; */
   flex-direction: row;
   justify-content: space-evenly;
   list-style: none;
+  margin: 0;
+  padding: 0;
+}
+.nav ul {
   margin: 0;
   padding: 0;
 }
@@ -248,6 +252,7 @@ footer {
   background-color: rgb(19, 194, 194);
   /* background-color: rgb(241, 241, 241); */
   margin: auto;
+  width: auto;
   font-size: 12px;
   padding: 20px;
 }
@@ -362,14 +367,16 @@ footer {
   padding-left: 10px;
 }
 .contacts-2 h3 {
+  border: 1px solid black;
   font-family: "bebas-neue", sans-serif;
   font-size: 16px;
   padding: 0 0 0 10px;
 }
 .contacts-2 ul {
-  /* border: 1px solid red; */
-  margin-left: 350px;
+  border: 1px solid red;
+  /* margin-left: 350px; */
   display: flex;
+  flex-direction: flex-end;
   justify-content: space-around;
   padding: 0;
 }
@@ -467,9 +474,7 @@ footer {
   }
 
 
-  footer {
-    
-  }
+  
   .CONTACT-AREA {
     width: 100%;
     height: auto;
@@ -492,21 +497,30 @@ footer {
   }
 
   .contacts-2 {
-    /* border: 1px solid blue; */
+    border: 1px solid blue;
     margin: 0;
     padding: 0;
   }
   .contacts-2 h3 {
-    /* border: 1px solid black; */
+    border: 1px solid black;
     margin: 0;
     padding: 20px 0 0 0;
     font-size: 15px;
     padding-left: 25px;
   }
+  .contacts-2 nav {
+    border: 2px solid orange;
+    margin: 0;
+    padding: 0;
+    /* display: flex;
+    justify-content: flex-end; */
+  }
   .contacts-2 ul {
     /* border: 1px solid green; */
-    margin-right: 0px;
-    margin-left: auto;
+    display: flex;
+    justify-content: flex-end;
+    /* margin-right: 0px;
+    margin-left: auto; */
   }
   .contacts-2 li {
     padding-right: 30px;
