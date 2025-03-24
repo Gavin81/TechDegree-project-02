@@ -44,12 +44,10 @@
   flex-direction: column;
 }
 .HOME {
-  /* border: 1px solid red; */
   background-color: rgb(241, 241, 241);
   padding: 0;
 }
 .HOME h1 {
-  /* border: 1px solid black; */
   font-family: 'Assistant', sans-serif;
   width: 100%;
   text-align: center;
@@ -59,19 +57,16 @@
 
 
 .profile-image-area {
-  /* border: 1px solid red; */
   padding-top: 20px;
   padding-bottom: 20px;
 }
 .profile-image {
-  /* border: 1px solid blue; */
   width: 65%;
   display: block;
   margin: 0 auto;
 }
 
 .para {
-  /* border: 1px solid red; */
   background-color: rgb(241, 241, 241);
   font-family: "Assistant", sans-serif;
   margin: 0;
@@ -88,7 +83,6 @@
 .PORTFOLIO-AREA h5 {
   font-family: 'Great Vibes', sans-serif;
   color: aqua;
-  /* font-family: 'Source sans', sans-serif; */
   font-size: 14px;
 }
 .item h3 {
@@ -140,14 +134,11 @@
 
 
 .CONTACT-AREA {
-  /* border: 2px solid red; */
   margin: 0;
   padding: 0;
   background-color: whitesmoke;
 }
 .CONTACT-AREA h5 {
-  /* border: 1px solid blue; */
-  /* font-family: 'Source Sans', sans-serif; */
   font-family: 'Great Vibes', sans-serif;
   font-size: 14px;
   color: aqua;
@@ -158,7 +149,6 @@
   padding: 35px 0;
 }
 .CONTACT-AREA p {
-  /* border: 1px solid brown; */
   font-family: 'Assistant', sans-serif;
   font-size: 14px;
   text-align: center;
@@ -168,7 +158,6 @@
 
 
 .info {
-  /* border: 2px solid grey; */
   margin-bottom: 25px;
   padding: 20px 0 0 0;
 }
@@ -178,7 +167,6 @@
   padding: 0;
 }
 .info li {
-  /* border: 1px solid blue; */
   list-style: none;
   text-align: center;
   padding-top: 5px;
@@ -192,10 +180,8 @@ hr {
   padding: 0;
 }
 .bottom-ul {
-  /* border: 1px solid green; */
   display: flex;
   justify-content: space-evenly;
-  /* margin: 0 0 0 0; */
   padding: 8px 0 15px 0;
   list-style: none;
 }
@@ -236,7 +222,6 @@ footer {
 
 
 .nav {
-  /* background-color: #797e83; */
   flex-direction: row;
   justify-content: space-evenly;
   list-style: none;
@@ -250,7 +235,6 @@ footer {
 .nav li {
   display: inline-block;
   background-color: rgb(19, 194, 194);
-  /* background-color: rgb(241, 241, 241); */
   margin: auto;
   width: auto;
   font-size: 12px;
@@ -284,10 +268,8 @@ footer {
 
 
 .PORTFOLIO-AREA {
-  /* border: 1px solid red; */
   width: 100%;
   height: auto;
-  /* padding-bottom: 28px; */
 }
 .PORTFOLIO-AREA:after {
   content: "";
@@ -295,7 +277,6 @@ footer {
   clear: both;
 }
 .item {
-  /* border: 1px solid green; */
   float: left;
   width: 49.5%;
   margin: 0px 0px 0px 0px;
@@ -303,8 +284,6 @@ footer {
   height: 360px;
 }
 .PORTFOLIO-AREA h5 {
-  /* border: 1px solid blue; */
-  /* font-family: "bebas neue", sans-serif; */
   font-size: 13px;
   text-align: center;
 }
@@ -331,18 +310,14 @@ footer {
 
 
 footer {
-  /* border: 1px solid red; */
   background-color: whitesmoke;
 }
 .CONTACT-AREA h5 {
-  /* border: 2px solid blue; */
-  /* font-family: "bebas neue", sans-serif; */
   font-size: 12px;
   margin: 0;
   padding: 40px 0 40px 0;
 }
 .CONTACT-AREA P {
-  /* border: 1px solid green; */
   margin: auto;
   font-family: "Assistant", sans-serif;
   font-size: 17px;
@@ -361,7 +336,6 @@ footer {
   display: none;
 }
 .contacts-2 {
-  /* border: 2px solid blue; */
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -401,37 +375,30 @@ footer {
 
    /* HEADER STYLES */
   .HOME {
-    /* border: 1px solid black; */
     margin: 0;
     padding: 0;
   }
   .nav-container {
-    /* border: 1px solid green; */
     background-color: rgb(19, 194, 194);
-    /* background: rgb(241, 241, 241); */
     width: auto;
     display: flex;
     justify-content: flex-end;
   }
   .nav-container .name {
-    /* border: 1px solid blue; */
     font-size: 25px;
     margin-right: auto;
     width: 140px;
   }
   .nav-container ul {
     background-color: rgb(19, 194, 194);
-    /* background: rgb(241, 241, 241); */
   }
   .profile-image {
-    /* border: 1px solid blue; */
     width: 330px;
     height: 190px;
     margin: 0 30px 0 0;
     padding: 0;
   }
   .para {
-    /* border: 1px solid red; */
     font-family: "Assistant", sans-serif;
     font-size: 20px;
     margin: 0;
@@ -441,7 +408,6 @@ footer {
 
   /* PORTFOLIO STYLES */
   .PORTFOLIO-AREA {
-    /* border: 1px solid black; */
     width: 100%;
     height: auto;
     display: flex;
@@ -449,7 +415,6 @@ footer {
   }
 
   .PORTFOLIO-AREA h5 {
-    /* border: 1px solid red; */
     font-size: 15px;
     text-align: center;
     flex-basis: 100%;
@@ -459,19 +424,16 @@ footer {
   }
 
   .item {
-    /* border: 1px solid blue; */
     flex-direction: column;
     flex: 33%;
     height: 330px;
   }
   .item h3 {
-    /* border: 2px solid black; */
     font-size: 17px;
     margin: 0;
     padding: 18px 0 15px 0;
   }
   .item p {
-    /* border: 1px solid red; */
     margin: 0;
     padding: 0;
   }
@@ -510,14 +472,10 @@ footer {
   .contacts-2 nav {
     margin: 0;
     padding: 0;
-    /* display: flex;
-    justify-content: flex-end; */
   }
   .contacts-2 ul {
     display: flex;
     justify-content: flex-end;
-    /* margin-right: 0px;
-    margin-left: auto; */
   }
   .contacts-2 li {
     padding-right: 30px;
