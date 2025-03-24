@@ -363,21 +363,24 @@ footer {
 .contacts-2 {
   /* border: 2px solid blue; */
   display: flex;
+  justify-content: space-between;
+  align-items: center;
   padding-bottom: 40px;
   padding-left: 10px;
 }
+.contacts-2 nav {
+  margin-right: 20px;
+}
 .contacts-2 h3 {
-  border: 1px solid black;
   font-family: "bebas-neue", sans-serif;
   font-size: 16px;
+  width: 100px;
   padding: 0 0 0 10px;
 }
 .contacts-2 ul {
-  border: 1px solid red;
-  /* margin-left: 350px; */
+  margin: 0;
+  width: 100%;
   display: flex;
-  flex-direction: flex-end;
-  justify-content: space-around;
   padding: 0;
 }
 .contacts-2 li {
@@ -487,36 +490,30 @@ footer {
     color: black;
   }
   .info {
-    /* border: 1px solid blue; */
     margin-bottom: 40px;
   }
   .info li {
-    /* border: 1px solid black; */
     margin: 10px 0;
     padding: 0;
   }
 
   .contacts-2 {
-    border: 1px solid blue;
     margin: 0;
     padding: 0;
   }
   .contacts-2 h3 {
-    border: 1px solid black;
     margin: 0;
     padding: 20px 0 0 0;
     font-size: 15px;
     padding-left: 25px;
   }
   .contacts-2 nav {
-    border: 2px solid orange;
     margin: 0;
     padding: 0;
     /* display: flex;
     justify-content: flex-end; */
   }
   .contacts-2 ul {
-    /* border: 1px solid green; */
     display: flex;
     justify-content: flex-end;
     /* margin-right: 0px;
